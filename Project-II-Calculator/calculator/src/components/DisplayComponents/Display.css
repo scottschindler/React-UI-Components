@@ -1,0 +1,10 @@
+.header {
+
+    border: 1px solid black;
+    width: 33%;
+    height: 100px;
+    background: black;
+    color: white;
+    margin-left: 40px;
+
+}
