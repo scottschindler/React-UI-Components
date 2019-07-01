@@ -16,9 +16,7 @@ const numbers = [
   ]
 
 
-
-
- function IteratingButtonFunc() {
+function numbersOnCalc() {
     return (
 
         <div className="class-list">
@@ -35,25 +33,9 @@ const numbers = [
     return (
 
 
-    //     <div className="student-info">
-    //       <h3>{props.numbers.text}</h3>
-    //   </div>
-
-
-  <button className="static_for_now">{props.numbers.text}</button>
+  <div className="static_for_now">{props.numbers.text}</div>
 
     );
   };
 
-  {props.buttonStyle}
-  
-
-
-  
-
-  
-
-
-  
-
-export default IteratingButtonFunc;  
+export default numbersOnCalc;  

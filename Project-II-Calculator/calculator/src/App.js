@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import NumbersButtons from './components/ButtonComponents/NumberButton';
+import SymbComp from './components/ButtonComponents/symb';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
 
       <Display/>
       <NumbersButtons/>
+      <SymbComp/>
     </div>
   );
 };
