@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */
 
 .box {
-    border: 2px solid black;
+    border: 1px solid black;
     width:40%;
     height: 500px;
     margin-left: 200px;
