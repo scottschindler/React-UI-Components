@@ -1,6 +1,13 @@
 import React from 'react';
 import './App.css';
 
+import Container from "./components/CardComponents/CardContainer";
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import Content from "./components/HeaderComponents/HeaderContent";
+import Title from "./components/HeaderComponents/HeaderTitle";
+import Thumb from "./components/HeaderComponents/ImageThumbnail";
+import "./index";
+
 const App = () => {
   return (
     <div>
@@ -17,6 +24,14 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+
+      <Container/>
+      <HeaderContainer/>
+      <Content/>
+      <Title/>
+      <Thumb/>
+
+      
     </div>
   );
 };

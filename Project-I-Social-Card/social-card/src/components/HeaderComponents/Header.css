@@ -1,1 +1,59 @@
 /* All styles for your header Components live here */
+
+.line {
+    border-top:2px solid black;
+    position: absolute;
+    left: 207px;
+    top: 250px;
+    width: 39.7%;
+}
+
+.content1 {
+
+    position: absolute;
+    left: 209px;
+    top: 200px;
+
+
+}
+
+.title1 {
+    display:flex;
+    position: absolute;
+    left: 209px;
+    top: 160px;
+
+}
+
+.title2 {
+    width:10%;
+    height:50px;
+}
+
+.lambda {
+    position: absolute;
+    left: 300px;
+    top: -5px;
+
+}
+
+
+.thumb1 {
+    width:35%;
+
+}
+
+.thumb-all {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+
+
+}
+
+.thumb-content {
+    border: 1px solid lightgray;
+    width: 35%;
+}
